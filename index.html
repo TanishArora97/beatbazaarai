@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beat Bazaar - AI DJ</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">Beat Bazaar</div>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="cta-button">Join Us</button>
+  </header>
+
+  <!-- Hero Section -->
+  <main id="home" class="hero-section">
+    <video autoplay muted loop class="background-video">
+      <source src="assets/videos/dj-background.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-content">
+      <h1>Shape the Future of Music and AI</h1>
+      <p>Experience AI-driven beats and redefine your musical journey.</p>
+      <div class="cta-buttons">
+        <a href="#features" class="cta-button">Learn More</a>
+        <a href="#demo" class="cta-button">Try Now</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Features Section -->
+  <section id="features" class="features-section">
+    <h2>Our Features</h2>
+    <div class="features-container">
+      <div class="feature-card">
+        <img src="assets/images/ai-beats.png" alt="AI-Generated Beats">
+        <h3>AI-Generated Beats</h3>
+        <p>Create unique beats with the power of AI.</p>
+      </div>
+      <div class="feature-card">
+        <img src="assets/images/playlists.png" alt="Customizable Playlists">
+        <h3>Customizable Playlists</h3>
+        <p>Curate playlists tailored to your style.</p>
+      </div>
+      <div class="feature-card">
+        <img src="assets/images/dj-controls.png" alt="Interactive DJ Controls">
+        <h3>Interactive DJ Controls</h3>
+        <p>Experience hands-on mixing with AI-powered tools.</p>
+      </div>
+      <div class="feature-card">
+        <img src="assets/images/dj-rental.png" alt="DJ Equipment Rental">
+        <h3>DJ Equipment Rental</h3>
+        <p>Rent professional DJ equipment directly from our platform.</p>
+      </div>
+      <div class="feature-card">
+        <img src="assets/images/virtual-dj.png" alt="Virtual DJ">
+        <h3>Virtual DJ</h3>
+        <p>Let our software handle your events as a Virtual DJ.</p>
+      </div>
+    </div>
+    <p class="upcoming-feature">Coming Soon: Beat Bazaar Mobile App!</p>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about-section">
+    <h2>About Us</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>At Beat Bazaar, we are revolutionizing how music and technology come together. Our AI-powered platform empowers DJs, musicians, and music enthusiasts to create, mix, and perform like never before.</p>
+        <p>From offering DJ equipment rentals and Virtual DJ services to introducing AI-generated playlists, we aim to be a one-stop solution for all your music needs. And with our upcoming mobile app, we’re taking Beat Bazaar to the next level.</p>
+      </div>
+      <div class="about-timeline">
+        <div class="timeline-item">
+          <h3>June 2023</h3>
+          <p>Founded Beat Bazaar. Introduced DJ equipment rentals and Virtual DJ services, expanding our ecosystem.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>March 2024</h3>
+          <p>Launched our AI DJ software with groundbreaking features for DJs and event organizers.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Jan 2025</h3>
+          <p>Coming Soon: Beat Bazaar Mobile App : Experience music right on the palm of your hands!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Us Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to know more about Beat Bazaar? Drop us a message!</p>
+    <form class="contact-form" id="contactForm">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="cta-button">Send Message</button>
+    </form>
+  </section>
+</body>
+</html>
